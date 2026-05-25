@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #e8f5e9);
 }
 
 .header {
@@ -13,6 +15,42 @@ body {
 
 .header h1 {
     color: white;
-    font-family: Arial, sans-serif;
     margin: 0;
+}
+
+
+.banner {
+    background: transparent;
+    color: black;
+
+    text-align: center;
+
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.secao {
+    background-color: white;
+
+    margin: 40px auto;
+    padding: 40px;
+
+    width: 80%;
+    border-radius: 10px;
+}
+
+.secao h2 {
+    color: green;
+    margin-top: 0;
+}
+
+.secao p,
+.secao li {
+    font-size: 18px;
+    line-height: 1.6;
 }
