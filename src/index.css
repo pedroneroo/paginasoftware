@@ -314,3 +314,57 @@ body {
   font-size: 0.75rem;
   color: #64748b;
 }
+
+/* ==========================================
+   4. PASSOS PARA O OBJETIVO
+   ========================================== */
+.steps-section {
+  padding: 64px 16px;
+  background-color: #ffffff;
+}
+
+.section-title-center {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: center;
+  color: #0f172a;
+  margin-bottom: 48px;
+}
+
+.steps-grid {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.step-card {
+  background-color: #f8fafc;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  position: relative;
+}
+
+.step-number {
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgba(16, 185, 129, 0.15);
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.step-desc {
+  color: #475569;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
