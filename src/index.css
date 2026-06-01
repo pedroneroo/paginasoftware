@@ -265,3 +265,52 @@ body {
     font-size: 0.95rem;
   }
 }
+
+/* ==========================================
+   3. CERTIFICAÇÕES
+   ========================================== */
+.certifications-section {
+  padding: 40px 16px;
+  background-color: #f1f5f9;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.certifications-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.badge-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 320px;
+}
+
+.badge-icon-box {
+  width: 48px;
+  height: 48px;
+  background-color: #d1fae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.25rem;
+}
+
+.badge-title {
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 0.95rem;
+}
+
+.badge-desc {
+  font-size: 0.75rem;
+  color: #64748b;
+}
