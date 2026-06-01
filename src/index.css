@@ -415,3 +415,49 @@ body {
   color: #475569;
   font-size: 0.875rem;
 }
+
+/* ==========================================
+   6. SEÇÃO DE UTILIDADE
+   ========================================== */
+.usecases-section {
+  padding: 64px 16px;
+  background-color: #ffffff;
+}
+
+.section-subtitle-center {
+  color: #475569;
+  text-align: center;
+  margin-top: -36px;
+  margin-bottom: 40px;
+  font-size: 1rem;
+}
+
+.usecases-grid {
+  max-width: 896px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 16px;
+}
+
+.usecase-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #f8fafc;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #f1f5f9;
+}
+
+.usecase-check {
+  color: #10b981;
+  font-weight: bold;
+}
+
+.usecase-text {
+  color: #334155;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
