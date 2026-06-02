@@ -9,6 +9,7 @@ import Depoimentos from './components/Feedbacks';
 import SobreAutor from './components/SobreAutor';
 import PerguntasFrequentes from './components/PerguntasFrequentes';
 import SecaoVenda from './components/SecaoVenda';
+import Desenvolvedores from './components/Desenvolvedores';
 import Rodape from './components/Footer';
 import BotaoWhatsapp from './components/WhatsappButton';
 
@@ -37,6 +38,8 @@ export default function App() {
         <PerguntasFrequentes />
 
         <SecaoVenda />
+
+        <Desenvolvedores />
 
         <Rodape />
       </div>
